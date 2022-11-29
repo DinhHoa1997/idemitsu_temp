@@ -500,7 +500,7 @@ header.header-fixed {
 }
 
 .crumb a:last-of-type {
-  color: #4d4d4d;
+  color: #b19044;
   padding-left: 10px;
   font-weight: 700;
 } 
@@ -1649,7 +1649,6 @@ border-radius: 0px 0px 5px 5px;
 }
 .swiper-product .swiper-slide  {
   text-align: center;
-  font-size: 18px;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -1808,4 +1807,136 @@ font-family: Googlesans-B;
 }
 .newsitem:hover{
   color: #b19044;
+}
+.poster-content
+{
+  position: absolute;
+  right: 0px;
+  bottom: 15px;
+  color: #FFF;
+  width: 100%;
+  
+
+}
+.poster-content--detail
+{
+  background-color: #0c2d20c5;
+  padding: 15px 20px;
+}
+.tiendochinhsach-wrapper
+{
+  background:url(/uploaded/background/bgsanpham.png);
+  font-size:16px
+}
+.tiendochinhsach-item__name
+{
+  padding-top: 10px;
+  text-align: left;
+  font-size: 17px;
+  color: #333;
+  font-family: Googlesans-B;
+}
+.tiendochinhsach-item
+{
+
+
+  text-align: left;
+}
+.swiper-galleries img
+{
+width: 100%;
+border-radius: 0px  ;
+}
+.swiper-galleries
+{
+  position: relative;
+}
+.swiper-galleries .swiper-galleries-next
+{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  right: 25%;
+  top: 50%;
+  z-index: 2;
+  background-color: #f1f2f2;
+  text-align: center;
+ line-height: 35px;
+}
+.swiper-galleries .swiper-galleries-prev
+{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  left: 25%;
+  top: 50%;
+  z-index: 2;
+  background-color: #f1f2f2;
+  text-align: center;
+ line-height: 35px;
+}
+.swiper-galleries .swiper-slide
+{
+  opacity: .7;
+}
+.swiper-galleries  .swiper-slide.swiper-slide-active
+{
+  opacity: 1;
+}
+.booking-wrapper
+{
+  background: url(/uploaded/background/bgdangkythamquan.png);
+  background-size: 100% 100%;
+  background-position: center center;
+}
+form input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 45px;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
+.item-title
+{
+  font-size: 24px;
+  text-align: center;
+}
+.booking-wrapper .item{
+  padding: 30px;
+  background-color: #f3f3f3da;
+}
+.item-title
+{
+  font-family: Googlesans-B;
+  text-transform: uppercase;
+  text-align: left;
+}
+input::placeholder, textarea::placeholder{
+  color: #8f8f8f;
+  font-family: Googlesans;
+}
+form textarea
+{
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: Googlesans;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+.btn-dangky
+{
+  background-color: #0C2D20;
+  color: #FFF;
+  font-family: Googlesans;
+  transition: all .5s ease-in;
+}
+.btn-dangky:hover{
+  background-color: #AA8533;
+  transition: all .5s ease-in;
 }

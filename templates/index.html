@@ -208,9 +208,10 @@
     </header>
     <!-- content -->
     <div class="content">
+      
           <!-- slideshow -->
           <div class="swiper-container" id="slide_home">
-            <!-- <div class="swiper-pagination"></div> -->
+        
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="slidehome">
@@ -222,40 +223,42 @@
                 <img class="hide-on-mobile" src="/uploaded/slideshow/item1.jpg" alt="" style="width: 100%" />
               </div>
             </div>
-            <!-- <div class="swiper-pagination"></div> -->
-            <script>
-              $(function () {
-                var swiper_slide_home = new Swiper("#slide_home", {
-                  loop: true,
-                  slidesPerView: 1,
-                  autoplay: {
-                    simulateTouch: true,
-                    delay: 5000000,
-                    disableOnInteraction: false,
-                  },
-                  spaceBetween: 0,
-                  // navigation: {
-                  //   nextEl: ".swiper-button-next",
-                  //   prevEl: ".swiper-button-prev",
-                  // },
-                  pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                  },
-                  speed: 500,
-                  spaceBetween: 0,
-                });
-    
-                $("#slide_home").on("mouseover", function () {
-                  swiper_slide_home.autoplay.stop();
-                });
-                $("#slide_home").on("mouseout", function () {
-                  swiper_slide_home.autoplay.start();
-                });
+         
+          </div>
+
+          </div>
+          <script>
+            $(function () {
+              var swiper_slide_home = new Swiper("#slide_home", {
+                loop: true,
+                slidesPerView: 1,
+                autoHeight:true,
+                autoplay: {
+                  simulateTouch: true,
+                  delay: 5000000,
+                  disableOnInteraction: false,
+                },
+                spaceBetween: 0,
+                // navigation: {
+                //   nextEl: ".swiper-button-next",
+                //   prevEl: ".swiper-button-prev",
+                // },
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+                speed: 500,
+                spaceBetween: 0,
               });
-            </script>
-          </div>
-          </div>
+  
+              $("#slide_home").on("mouseover", function () {
+                swiper_slide_home.autoplay.stop();
+              });
+              $("#slide_home").on("mouseout", function () {
+                swiper_slide_home.autoplay.start();
+              });
+            });
+          </script>
           <!-- end slideshow -->
           <div class="homeabout-wrapper">
               <div class="c30"></div>
