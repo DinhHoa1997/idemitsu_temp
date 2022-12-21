@@ -58,7 +58,7 @@ $(function () {
 
     var menubar = $('.header').position();
     $(window).scroll(function (event) {
-        if ($(this).scrollTop() > (menubar.top + 200)) {
+        if ($(this).scrollTop() >100) {
             $('.header').addClass("header-fixed");
         } else {
 			$('.header').removeClass("header-fixed");
